@@ -10,9 +10,6 @@ html,body{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     line-height: 1.7em;
 }
-body{
-    height:5000px;
-}
 a {
     color:#333;
     text-decoration: none;
@@ -228,10 +225,31 @@ p{
     margin-right: 20px;
     border-radius: 50px;
 }
+/* Contact Page */
+#contact-from .form-group{
+    margin-bottom: 20px;
+    
+}
 
+#contact-form label{
+    display: block;
+    margin-bottom: 10px;
+}
 
-
-
+#contact-form input,#contact-form textarea
+{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+}
+#contact-form textarea{
+    height:200px;
+    resize: none;
+}
+#contact-form input:focus,#contact-form textarea:focus{
+    outline: none;
+    border-color:#f7c08a
+}
 
 /* Footer */
 #main-footer{
